@@ -42,4 +42,4 @@ That's it you're done!
 - Make sure to do these steps in order, if you mess up somewhere you can always reset the repository to the initial state and start over.
 
 
-Akshith Manoj
+

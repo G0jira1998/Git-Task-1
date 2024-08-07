@@ -23,6 +23,6 @@ switch could be used instead of checkout but the command is in its trial stages.
 integrated into the main branch. But akshith will still remain in the repo and can always be checked out. I used git branch to find out which branch I'm working with currently.
 
 7) So I opened the README.md file using nano text editor and added my name at the very end. I added it to the staging area and then committed it (git commit -m "LIL MEASSAGE"). So to 
-revert this using reset command there are 2 ways, one is --soft reset and the other is --hard reset (I used --hard reset). Soft reset just removes the latest commit hash from the git log
+revert this using reset command there are 2 ways, one is --soft reset and the other is --hard reset (I used --soft reset). Soft reset just removes the latest commit hash from the git log
 and you won't be able to view the commit but my name will still be there in the README.md file, so it basically keeps the changes for a re-commit. So for completely reverting the edit I 
 have to use this command (git reset --hard HEAD~1), HEAD~1 basically refers to the latest commit I made, so it basically discards the commit and doesn't keep the changes for a re-commit.
